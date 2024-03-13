@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\DBarczak_WebAPI.props" />
+</Project>
