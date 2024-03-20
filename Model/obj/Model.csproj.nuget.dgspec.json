@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Student\\Desktop\\TAIIB\\DBarczak_WebAPI\\Model\\Model.csproj": {}
+    "C:\\Users\\Student\\Downloads\\Laboratorium-Taiib-main\\Model\\Model.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Student\\Desktop\\TAIIB\\DBarczak_WebAPI\\Model\\Model.csproj": {
+    "C:\\Users\\Student\\Downloads\\Laboratorium-Taiib-main\\Model\\Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Student\\Desktop\\TAIIB\\DBarczak_WebAPI\\Model\\Model.csproj",
+        "projectUniqueName": "C:\\Users\\Student\\Downloads\\Laboratorium-Taiib-main\\Model\\Model.csproj",
         "projectName": "Model",
-        "projectPath": "C:\\Users\\Student\\Desktop\\TAIIB\\DBarczak_WebAPI\\Model\\Model.csproj",
+        "projectPath": "C:\\Users\\Student\\Downloads\\Laboratorium-Taiib-main\\Model\\Model.csproj",
         "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Student\\Desktop\\TAIIB\\DBarczak_WebAPI\\Model\\obj\\",
+        "outputPath": "C:\\Users\\Student\\Downloads\\Laboratorium-Taiib-main\\Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

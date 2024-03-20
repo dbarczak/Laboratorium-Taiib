@@ -22,7 +22,7 @@ namespace Model
         public string Image { get; set; }
         public bool IsActive { get; set; }
         public IEnumerable<BasketPosition> BasketPositions { get; set; }
-
+        public IEnumerable<OrderPosition> OrderPositions { get; set; }
         public void Configure(EntityTypeBuilder<Product> builder)
         {
             builder.HasMany(p => p.BasketPositions).WithOne(p=>p.Product).OnDelete(DeleteBehavior.Cascade);
