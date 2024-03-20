@@ -1185,6 +1185,21 @@
           }
         }
       },
+      "BBL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DAL": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.17",
+          "Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BBL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BBL.dll": {}
+        }
+      },
       "DAL/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -3430,6 +3445,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "BBL/1.0.0": {
+      "type": "project",
+      "path": "../BBL/BBL.csproj",
+      "msbuildProject": "../BBL/BBL.csproj"
+    },
     "DAL/1.0.0": {
       "type": "project",
       "path": "../DAL/DAL.csproj",
@@ -3443,6 +3463,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "BBL >= 1.0.0",
       "DAL >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 7.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.17",
@@ -3460,11 +3481,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Student\\Desktop\\TAIIB\\DBarczak_WebAPI\\DBarczak_WebAPI\\DBarczak_WebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Student\\Downloads\\Laboratorium-Taiib-main\\DBarczak_WebAPI\\DBarczak_WebAPI.csproj",
       "projectName": "DBarczak_WebAPI",
-      "projectPath": "C:\\Users\\Student\\Desktop\\TAIIB\\DBarczak_WebAPI\\DBarczak_WebAPI\\DBarczak_WebAPI.csproj",
+      "projectPath": "C:\\Users\\Student\\Downloads\\Laboratorium-Taiib-main\\DBarczak_WebAPI\\DBarczak_WebAPI.csproj",
       "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Student\\Desktop\\TAIIB\\DBarczak_WebAPI\\DBarczak_WebAPI\\obj\\",
+      "outputPath": "C:\\Users\\Student\\Downloads\\Laboratorium-Taiib-main\\DBarczak_WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -3489,8 +3510,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Student\\Desktop\\TAIIB\\DBarczak_WebAPI\\DAL\\DAL.csproj": {
-              "projectPath": "C:\\Users\\Student\\Desktop\\TAIIB\\DBarczak_WebAPI\\DAL\\DAL.csproj"
+            "C:\\Users\\Student\\Downloads\\Laboratorium-Taiib-main\\BBL\\BBL.csproj": {
+              "projectPath": "C:\\Users\\Student\\Downloads\\Laboratorium-Taiib-main\\BBL\\BBL.csproj"
+            },
+            "C:\\Users\\Student\\Downloads\\Laboratorium-Taiib-main\\DAL\\DAL.csproj": {
+              "projectPath": "C:\\Users\\Student\\Downloads\\Laboratorium-Taiib-main\\DAL\\DAL.csproj"
             }
           }
         }

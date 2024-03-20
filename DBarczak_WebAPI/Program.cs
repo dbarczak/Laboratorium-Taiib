@@ -1,4 +1,5 @@
 
+using BBL;
 using DAL;
 
 namespace DBarczak_WebAPI
@@ -33,6 +34,11 @@ namespace DBarczak_WebAPI
             app.MapControllers();
 
             app.Run();
+        }
+        public void ConfigureServices(IServiceCollection services)
+        {
+            services.AddControllers();
+            services.AddScoped<IProductService, ProductService>();
         }
     }
 }
