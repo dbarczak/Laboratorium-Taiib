@@ -8,10 +8,10 @@ using System.Threading.Tasks;
 namespace BBL.Interfaces
 {
     public interface IBasketService
-	{
-		bool AddToBasket(int userId, int productId, int quantity);
-		bool RemoveFromBasket(int basketItemId);
-		bool ChangeBasketItemQuantity(int basketItemId, int quantity);
-		IEnumerable<BasketItemDTO> GetBasketItems(int userId);
-	}
+    {
+	bool AddToBasket(int userId, int productId, int quantity);
+	bool RemoveFromBasket(int basketItemId);
+	bool ChangeBasketItemQuantity(int basketItemId, int quantity);
+	IEnumerable<BasketItemDTO> GetBasketItems(int userId);
+    }
 }
