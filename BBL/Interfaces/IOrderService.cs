@@ -9,10 +9,9 @@ namespace BBL.Interfaces
 {
     public interface IOrderService
     {
-        OrderDTO GetOrder(int orderId);
-        IEnumerable<OrderDTO> GetAllOrdersForUser(int userId);
-        OrderDTO CreateOrder(OrderDTO orderDto);
-        bool UpdateOrder(OrderDTO orderDto);
-        bool DeleteOrder(int orderId);
+        OrderDTO CreateOrder(int userId);
+        IEnumerable<OrderDTO> GetAllOrders();
+        IEnumerable<OrderDTO> GetUserOrders(int userId);
+        IEnumerable<OrderDTO> GetOrderItems(int orderId);
     }
 }
