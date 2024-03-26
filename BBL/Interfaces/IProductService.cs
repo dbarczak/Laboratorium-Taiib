@@ -9,10 +9,10 @@ namespace BBL.Interfaces
 {
     public interface IProductService
     {
-        IEnumerable<ProductDTO> GetProducts(int page, int pageSize, string filterByName, bool? isActive, string sortBy, bool isDescending);
-        public ProductDTO AddProduct(ProductDTO productDto);
-        public ProductDTO UpdateProduct(int id, ProductDTO productDto);
-        public bool DeleteProduct(int id);
+        IEnumerable<ProductDTO> GetProducts(string name, bool? isActive, int pageNumber, int pageSize, string sortBy, bool sortAsc);
+        ProductDTO AddProduct(ProductDTO product);
+        ProductDTO UpdateProduct(ProductDTO product);
+        bool DeleteProduct(int productId);
         bool ActivateProduct(int productId);
     }
 }
