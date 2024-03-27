@@ -1,5 +1,7 @@
 
 using BBL;
+using BBL.Interfaces;
+using BLL_EF;
 using DAL;
 
 namespace DBarczak_WebAPI
@@ -18,6 +20,8 @@ namespace DBarczak_WebAPI
             builder.Services.AddSwaggerGen();
 
             builder.Services.AddDbContext<WebshopContext>();
+            builder.Services.AddScoped<IProductService, ProductService>();
+            builder.Services.AddScoped<IBasketService, BasketService>();
 
             var app = builder.Build();
 
@@ -38,7 +42,6 @@ namespace DBarczak_WebAPI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddScoped<IProductService, ProductService>();
         }
     }
 }

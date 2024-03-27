@@ -9,6 +9,7 @@
       "DBarczak_WebAPI/1.0.0": {
         "dependencies": {
           "BBL": "1.0.0",
+          "BLL_EF": "1.0.0",
           "DAL": "1.0.0",
           "Microsoft.AspNetCore.OpenApi": "7.0.0",
           "Microsoft.EntityFrameworkCore.Design": "7.0.17",
@@ -633,6 +634,14 @@
           "BBL.dll": {}
         }
       },
+      "BLL_EF/1.0.0": {
+        "dependencies": {
+          "BBL": "1.0.0"
+        },
+        "runtime": {
+          "BLL_EF.dll": {}
+        }
+      },
       "DAL/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.17",
@@ -1135,6 +1144,11 @@
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
     },
     "BBL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BLL_EF/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

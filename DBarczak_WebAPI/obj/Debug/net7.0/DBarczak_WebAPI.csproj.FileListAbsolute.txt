@@ -160,3 +160,5 @@ C:\Users\Student\Downloads\Laboratorium-Taiib-main\DBarczak_WebAPI\obj\Debug\net
 C:\Users\Student\Downloads\Laboratorium-Taiib-main\DBarczak_WebAPI\obj\Debug\net7.0\ref\DBarczak_WebAPI.dll
 C:\Users\Student\Downloads\Laboratorium-Taiib-main\DBarczak_WebAPI\bin\Debug\net7.0\BBL.dll
 C:\Users\Student\Downloads\Laboratorium-Taiib-main\DBarczak_WebAPI\bin\Debug\net7.0\BBL.pdb
+C:\Users\Student\Downloads\Laboratorium-Taiib-main\DBarczak_WebAPI\bin\Debug\net7.0\BLL_EF.dll
+C:\Users\Student\Downloads\Laboratorium-Taiib-main\DBarczak_WebAPI\bin\Debug\net7.0\BLL_EF.pdb

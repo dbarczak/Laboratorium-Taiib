@@ -1200,6 +1200,19 @@
           "bin/placeholder/BBL.dll": {}
         }
       },
+      "BLL_EF/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "BBL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BLL_EF.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BLL_EF.dll": {}
+        }
+      },
       "DAL/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -3450,6 +3463,11 @@
       "path": "../BBL/BBL.csproj",
       "msbuildProject": "../BBL/BBL.csproj"
     },
+    "BLL_EF/1.0.0": {
+      "type": "project",
+      "path": "../BLL_EF/BLL_EF.csproj",
+      "msbuildProject": "../BLL_EF/BLL_EF.csproj"
+    },
     "DAL/1.0.0": {
       "type": "project",
       "path": "../DAL/DAL.csproj",
@@ -3464,6 +3482,7 @@
   "projectFileDependencyGroups": {
     "net7.0": [
       "BBL >= 1.0.0",
+      "BLL_EF >= 1.0.0",
       "DAL >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 7.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.17",
@@ -3512,6 +3531,9 @@
           "projectReferences": {
             "C:\\Users\\Student\\Downloads\\Laboratorium-Taiib-main\\BBL\\BBL.csproj": {
               "projectPath": "C:\\Users\\Student\\Downloads\\Laboratorium-Taiib-main\\BBL\\BBL.csproj"
+            },
+            "C:\\Users\\Student\\Downloads\\Laboratorium-Taiib-main\\BLL_EF\\BLL_EF.csproj": {
+              "projectPath": "C:\\Users\\Student\\Downloads\\Laboratorium-Taiib-main\\BLL_EF\\BLL_EF.csproj"
             },
             "C:\\Users\\Student\\Downloads\\Laboratorium-Taiib-main\\DAL\\DAL.csproj": {
               "projectPath": "C:\\Users\\Student\\Downloads\\Laboratorium-Taiib-main\\DAL\\DAL.csproj"
