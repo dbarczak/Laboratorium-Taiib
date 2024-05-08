@@ -1,43 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Student\\Downloads\\Laboratorium-Taiib-main\\DAL\\DAL.csproj": {}
+    "C:\\Users\\Damian\\Source\\Repos\\dbarczak\\Laboratorium-Taiib\\DAL\\DAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Student\\Downloads\\Laboratorium-Taiib-main\\DAL\\DAL.csproj": {
+    "C:\\Users\\Damian\\Source\\Repos\\dbarczak\\Laboratorium-Taiib\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Student\\Downloads\\Laboratorium-Taiib-main\\DAL\\DAL.csproj",
+        "projectUniqueName": "C:\\Users\\Damian\\Source\\Repos\\dbarczak\\Laboratorium-Taiib\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "C:\\Users\\Student\\Downloads\\Laboratorium-Taiib-main\\DAL\\DAL.csproj",
-        "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Student\\Downloads\\Laboratorium-Taiib-main\\DAL\\obj\\",
+        "projectPath": "C:\\Users\\Damian\\Source\\Repos\\dbarczak\\Laboratorium-Taiib\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\Damian\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Damian\\Source\\Repos\\dbarczak\\Laboratorium-Taiib\\DAL\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Damian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Student\\Downloads\\Laboratorium-Taiib-main\\Model\\Model.csproj": {
-                "projectPath": "C:\\Users\\Student\\Downloads\\Laboratorium-Taiib-main\\Model\\Model.csproj"
+              "C:\\Users\\Damian\\Source\\Repos\\dbarczak\\Laboratorium-Taiib\\Model\\Model.csproj": {
+                "projectPath": "C:\\Users\\Damian\\Source\\Repos\\dbarczak\\Laboratorium-Taiib\\Model\\Model.csproj"
               }
             }
           }
@@ -46,6 +38,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -85,36 +82,28 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Student\\Downloads\\Laboratorium-Taiib-main\\Model\\Model.csproj": {
+    "C:\\Users\\Damian\\Source\\Repos\\dbarczak\\Laboratorium-Taiib\\Model\\Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Student\\Downloads\\Laboratorium-Taiib-main\\Model\\Model.csproj",
+        "projectUniqueName": "C:\\Users\\Damian\\Source\\Repos\\dbarczak\\Laboratorium-Taiib\\Model\\Model.csproj",
         "projectName": "Model",
-        "projectPath": "C:\\Users\\Student\\Downloads\\Laboratorium-Taiib-main\\Model\\Model.csproj",
-        "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Student\\Downloads\\Laboratorium-Taiib-main\\Model\\obj\\",
+        "projectPath": "C:\\Users\\Damian\\Source\\Repos\\dbarczak\\Laboratorium-Taiib\\Model\\Model.csproj",
+        "packagesPath": "C:\\Users\\Damian\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Damian\\Source\\Repos\\dbarczak\\Laboratorium-Taiib\\Model\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Damian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -127,6 +116,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -166,7 +160,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     }

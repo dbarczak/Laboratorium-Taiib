@@ -9,9 +9,9 @@ namespace BBL.Interfaces
 {
     public interface IBasketService
     {
-        public bool AddToBasket(int userId, int productId, int quantity);
-        public bool RemoveFromBasket(int basketItemId);
-        public bool ChangeBasketItemQuantity(int basketItemId, int quantity);
-        public List<BasketPositionDTO> GetBasketItems(int userId);
+        public void AddToBasket(BasketPositionRequestDTO basketDto);
+        public void RemoveFromBasket(int basketItemId);
+        public void ChangeBasketItemQuantity(int basketItemId, int quantity);
+        public IEnumerable<BasketPositionResponseDTO> GetBasketItems(int userId);
     }
 }

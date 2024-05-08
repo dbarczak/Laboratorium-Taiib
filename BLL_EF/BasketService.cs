@@ -20,73 +20,55 @@ namespace BLL_EF
             _context = context;
         }
 
-        public bool AddToBasket(int userId, int productId, int quantity)
+        public void AddToBasket(BasketPositionRequestDTO basketDto)
         {
-            if (quantity <= 0)
+            var product = _context.Products.Find(basketDto.ProductId);
+            if (product.IsActive == true)
             {
-                throw new ArgumentException("Ilość musi być większa od 0.");
+                var newBasket = new BasketPosition
+                {
+                    UserID = basketDto.UserId,
+                    ProductID = basketDto.ProductId,
+                    Amount = basketDto.Amount
+                };
+
+
+                _context.BasketPositions.Add(newBasket);
+                _context.SaveChanges();
             }
-
-            var product = _context.Products.SingleOrDefault(p => p.Id == productId && p.IsActive);
-            if (product == null)
-            {
-                return false;
-            }
-
-            var basketItem = new BasketPosition
-            {
-                UserID = userId,
-                ProductID = productId,
-                Amount = quantity
-            };
-            _context.BasketPositions.Add(basketItem);
-            _context.SaveChanges();
-
-            return true;
         }
-
-        public bool RemoveFromBasket(int basketItemId)
+        public void RemoveFromBasket(int basketItemId)
         {
-            var basketItem = _context.BasketPositions.Find(basketItemId);
-            if (basketItem == null)
+            var basket = _context.BasketPositions.Find(basketItemId);
+            if (basket != null)
             {
-                return false;
+                _context.BasketPositions.Remove(basket);
+                _context.SaveChanges();
             }
-
-            _context.BasketPositions.Remove(basketItem);
-            _context.SaveChanges();
-
-            return true;
         }
-        public bool ChangeBasketItemQuantity(int basketItemId, int quantity)
+        public void ChangeBasketItemQuantity(int basketItemId, int quantity)
         {
-            if(quantity <= 0);
+            if (quantity > 0)
             {
-                throw new ArgumentException("Ilość musi być większa od 0.");
+                var basket = _context.BasketPositions.Find(basketItemId);
+                if (basket != null)
+                {
+                    basket.Amount = quantity;
+
+                    _context.SaveChanges();
+                }
             }
-
-            var basketItem = _context.BasketPositions.Find(basketItemId);
-            if (basketItem == null)
-            {
-                return false;
-            }
-
-            basketItem.Amount = quantity;
-            _context.SaveChanges();
-
-            return true;
         }
-        public List<BasketPositionDTO> GetBasketItems(int userId)
+        public IEnumerable<BasketPositionResponseDTO> GetBasketItems(int userId)
         {
-            var basketItems = _context.BasketPositions.Where(bi => bi.UserID == userId)
-        .Select(bi => new BasketPositionDTO
-        {
-            Id = bi.Id,
-            ProductId = bi.ProductID,
-            Amount = bi.Amount,
-        }).ToList();
-
-            return basketItems;
+            return _context.BasketPositions
+                .Select(bp => new BasketPositionResponseDTO
+                {
+                    Id = bp.Id,
+                    UserId = bp.UserID,
+                    ProductId = bp.ProductID,
+                    Amount = bp.Amount
+                }).ToList();
         }
     }
 }

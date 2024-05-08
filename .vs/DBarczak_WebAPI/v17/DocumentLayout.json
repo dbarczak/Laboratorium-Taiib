@@ -1,0 +1,542 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Damian\\source\\repos\\dbarczak\\Laboratorium-Taiib\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3ADEEF81-C6B9-46B1-8C0C-C5AB0AC2294C}|DBarczak_WebAPI\\DBarczak_WebAPI.csproj|c:\\users\\damian\\source\\repos\\dbarczak\\laboratorium-taiib\\dbarczak_webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ADEEF81-C6B9-46B1-8C0C-C5AB0AC2294C}|DBarczak_WebAPI\\DBarczak_WebAPI.csproj|solutionrelative:dbarczak_webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7E5A5F-E617-4470-BD1F-587E2B30DD62}|BLL_EF\\BLL_EF.csproj|c:\\users\\damian\\source\\repos\\dbarczak\\laboratorium-taiib\\bll_ef\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7E5A5F-E617-4470-BD1F-587E2B30DD62}|BLL_EF\\BLL_EF.csproj|solutionrelative:bll_ef\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7E5A5F-E617-4470-BD1F-587E2B30DD62}|BLL_EF\\BLL_EF.csproj|c:\\users\\damian\\source\\repos\\dbarczak\\laboratorium-taiib\\bll_ef\\basketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7E5A5F-E617-4470-BD1F-587E2B30DD62}|BLL_EF\\BLL_EF.csproj|solutionrelative:bll_ef\\basketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7E5A5F-E617-4470-BD1F-587E2B30DD62}|BLL_EF\\BLL_EF.csproj|c:\\users\\damian\\source\\repos\\dbarczak\\laboratorium-taiib\\bll_ef\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7E5A5F-E617-4470-BD1F-587E2B30DD62}|BLL_EF\\BLL_EF.csproj|solutionrelative:bll_ef\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ED640D3-68E2-4B88-8BE4-9D2D7565F71D}|BBL\\BBL.csproj|c:\\users\\damian\\source\\repos\\dbarczak\\laboratorium-taiib\\bbl\\interfaces\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ED640D3-68E2-4B88-8BE4-9D2D7565F71D}|BBL\\BBL.csproj|solutionrelative:bbl\\interfaces\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ADEEF81-C6B9-46B1-8C0C-C5AB0AC2294C}|DBarczak_WebAPI\\DBarczak_WebAPI.csproj|c:\\users\\damian\\source\\repos\\dbarczak\\laboratorium-taiib\\dbarczak_webapi\\controllers\\baksetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ADEEF81-C6B9-46B1-8C0C-C5AB0AC2294C}|DBarczak_WebAPI\\DBarczak_WebAPI.csproj|solutionrelative:dbarczak_webapi\\controllers\\baksetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ADEEF81-C6B9-46B1-8C0C-C5AB0AC2294C}|DBarczak_WebAPI\\DBarczak_WebAPI.csproj|c:\\users\\damian\\source\\repos\\dbarczak\\laboratorium-taiib\\dbarczak_webapi\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ADEEF81-C6B9-46B1-8C0C-C5AB0AC2294C}|DBarczak_WebAPI\\DBarczak_WebAPI.csproj|solutionrelative:dbarczak_webapi\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ADEEF81-C6B9-46B1-8C0C-C5AB0AC2294C}|DBarczak_WebAPI\\DBarczak_WebAPI.csproj|c:\\users\\damian\\source\\repos\\dbarczak\\laboratorium-taiib\\dbarczak_webapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ADEEF81-C6B9-46B1-8C0C-C5AB0AC2294C}|DBarczak_WebAPI\\DBarczak_WebAPI.csproj|solutionrelative:dbarczak_webapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ED640D3-68E2-4B88-8BE4-9D2D7565F71D}|BBL\\BBL.csproj|c:\\users\\damian\\source\\repos\\dbarczak\\laboratorium-taiib\\bbl\\interfaces\\ibasketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ED640D3-68E2-4B88-8BE4-9D2D7565F71D}|BBL\\BBL.csproj|solutionrelative:bbl\\interfaces\\ibasketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ED640D3-68E2-4B88-8BE4-9D2D7565F71D}|BBL\\BBL.csproj|c:\\users\\damian\\source\\repos\\dbarczak\\laboratorium-taiib\\bbl\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ED640D3-68E2-4B88-8BE4-9D2D7565F71D}|BBL\\BBL.csproj|solutionrelative:bbl\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ADEEF81-C6B9-46B1-8C0C-C5AB0AC2294C}|DBarczak_WebAPI\\DBarczak_WebAPI.csproj|c:\\users\\damian\\source\\repos\\dbarczak\\laboratorium-taiib\\dbarczak_webapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ADEEF81-C6B9-46B1-8C0C-C5AB0AC2294C}|DBarczak_WebAPI\\DBarczak_WebAPI.csproj|solutionrelative:dbarczak_webapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ED640D3-68E2-4B88-8BE4-9D2D7565F71D}|BBL\\BBL.csproj|c:\\users\\damian\\source\\repos\\dbarczak\\laboratorium-taiib\\bbl\\dto\\basketpositionrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ED640D3-68E2-4B88-8BE4-9D2D7565F71D}|BBL\\BBL.csproj|solutionrelative:bbl\\dto\\basketpositionrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EACAA948-626B-431A-8C3F-54D531BF1310}|Model\\Model.csproj|c:\\users\\damian\\source\\repos\\dbarczak\\laboratorium-taiib\\model\\orderposition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EACAA948-626B-431A-8C3F-54D531BF1310}|Model\\Model.csproj|solutionrelative:model\\orderposition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EACAA948-626B-431A-8C3F-54D531BF1310}|Model\\Model.csproj|c:\\users\\damian\\source\\repos\\dbarczak\\laboratorium-taiib\\model\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EACAA948-626B-431A-8C3F-54D531BF1310}|Model\\Model.csproj|solutionrelative:model\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ED640D3-68E2-4B88-8BE4-9D2D7565F71D}|BBL\\BBL.csproj|c:\\users\\damian\\source\\repos\\dbarczak\\laboratorium-taiib\\bbl\\interfaces\\iorderpositionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ED640D3-68E2-4B88-8BE4-9D2D7565F71D}|BBL\\BBL.csproj|solutionrelative:bbl\\interfaces\\iorderpositionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ED640D3-68E2-4B88-8BE4-9D2D7565F71D}|BBL\\BBL.csproj|c:\\users\\damian\\source\\repos\\dbarczak\\laboratorium-taiib\\bbl\\dto\\orderrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ED640D3-68E2-4B88-8BE4-9D2D7565F71D}|BBL\\BBL.csproj|solutionrelative:bbl\\dto\\orderrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ED640D3-68E2-4B88-8BE4-9D2D7565F71D}|BBL\\BBL.csproj|c:\\users\\damian\\source\\repos\\dbarczak\\laboratorium-taiib\\bbl\\dto\\orderresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ED640D3-68E2-4B88-8BE4-9D2D7565F71D}|BBL\\BBL.csproj|solutionrelative:bbl\\dto\\orderresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EACAA948-626B-431A-8C3F-54D531BF1310}|Model\\Model.csproj|c:\\users\\damian\\source\\repos\\dbarczak\\laboratorium-taiib\\model\\basketposition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EACAA948-626B-431A-8C3F-54D531BF1310}|Model\\Model.csproj|solutionrelative:model\\basketposition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ED640D3-68E2-4B88-8BE4-9D2D7565F71D}|BBL\\BBL.csproj|c:\\users\\damian\\source\\repos\\dbarczak\\laboratorium-taiib\\bbl\\dto\\basketpositionresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ED640D3-68E2-4B88-8BE4-9D2D7565F71D}|BBL\\BBL.csproj|solutionrelative:bbl\\dto\\basketpositionresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ED640D3-68E2-4B88-8BE4-9D2D7565F71D}|BBL\\BBL.csproj|c:\\users\\damian\\source\\repos\\dbarczak\\laboratorium-taiib\\bbl\\dto\\productresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ED640D3-68E2-4B88-8BE4-9D2D7565F71D}|BBL\\BBL.csproj|solutionrelative:bbl\\dto\\productresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ED640D3-68E2-4B88-8BE4-9D2D7565F71D}|BBL\\BBL.csproj|c:\\users\\damian\\source\\repos\\dbarczak\\laboratorium-taiib\\bbl\\dto\\productrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ED640D3-68E2-4B88-8BE4-9D2D7565F71D}|BBL\\BBL.csproj|solutionrelative:bbl\\dto\\productrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EACAA948-626B-431A-8C3F-54D531BF1310}|Model\\Model.csproj|c:\\users\\damian\\source\\repos\\dbarczak\\laboratorium-taiib\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EACAA948-626B-431A-8C3F-54D531BF1310}|Model\\Model.csproj|solutionrelative:model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EACAA948-626B-431A-8C3F-54D531BF1310}|Model\\Model.csproj|c:\\users\\damian\\source\\repos\\dbarczak\\laboratorium-taiib\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EACAA948-626B-431A-8C3F-54D531BF1310}|Model\\Model.csproj|solutionrelative:model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ED640D3-68E2-4B88-8BE4-9D2D7565F71D}|BBL\\BBL.csproj|c:\\users\\damian\\source\\repos\\dbarczak\\laboratorium-taiib\\bbl\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ED640D3-68E2-4B88-8BE4-9D2D7565F71D}|BBL\\BBL.csproj|solutionrelative:bbl\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ED640D3-68E2-4B88-8BE4-9D2D7565F71D}|BBL\\BBL.csproj|c:\\users\\damian\\source\\repos\\dbarczak\\laboratorium-taiib\\bbl\\dto\\orderpositionresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ED640D3-68E2-4B88-8BE4-9D2D7565F71D}|BBL\\BBL.csproj|solutionrelative:bbl\\dto\\orderpositionresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ED640D3-68E2-4B88-8BE4-9D2D7565F71D}|BBL\\BBL.csproj|c:\\users\\damian\\source\\repos\\dbarczak\\laboratorium-taiib\\bbl\\dto\\orderpositionrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ED640D3-68E2-4B88-8BE4-9D2D7565F71D}|BBL\\BBL.csproj|solutionrelative:bbl\\dto\\orderpositionrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ED640D3-68E2-4B88-8BE4-9D2D7565F71D}|BBL\\BBL.csproj|c:\\users\\damian\\source\\repos\\dbarczak\\laboratorium-taiib\\bbl\\dto\\userrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ED640D3-68E2-4B88-8BE4-9D2D7565F71D}|BBL\\BBL.csproj|solutionrelative:bbl\\dto\\userrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ED640D3-68E2-4B88-8BE4-9D2D7565F71D}|BBL\\BBL.csproj|c:\\users\\damian\\source\\repos\\dbarczak\\laboratorium-taiib\\bbl\\dto\\userresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ED640D3-68E2-4B88-8BE4-9D2D7565F71D}|BBL\\BBL.csproj|solutionrelative:bbl\\dto\\userresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B4CEF35-EC14-4848-9270-E289EEA4E317}|DAL\\DAL.csproj|c:\\users\\damian\\source\\repos\\dbarczak\\laboratorium-taiib\\dal\\webshopcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B4CEF35-EC14-4848-9270-E289EEA4E317}|DAL\\DAL.csproj|solutionrelative:dal\\webshopcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ADEEF81-C6B9-46B1-8C0C-C5AB0AC2294C}|DBarczak_WebAPI\\DBarczak_WebAPI.csproj|c:\\users\\damian\\source\\repos\\dbarczak\\laboratorium-taiib\\dbarczak_webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3ADEEF81-C6B9-46B1-8C0C-C5AB0AC2294C}|DBarczak_WebAPI\\DBarczak_WebAPI.csproj|solutionrelative:dbarczak_webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Damian\\source\\repos\\dbarczak\\Laboratorium-Taiib\\DBarczak_WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "DBarczak_WebAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\Damian\\source\\repos\\dbarczak\\Laboratorium-Taiib\\DBarczak_WebAPI\\Program.cs",
+              "RelativeToolTip": "DBarczak_WebAPI\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAuwCQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T14:38:47.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\Damian\\source\\repos\\dbarczak\\Laboratorium-Taiib\\BLL_EF\\OrderService.cs",
+              "RelativeDocumentMoniker": "BLL_EF\\OrderService.cs",
+              "ToolTip": "C:\\Users\\Damian\\source\\repos\\dbarczak\\Laboratorium-Taiib\\BLL_EF\\OrderService.cs",
+              "RelativeToolTip": "BLL_EF\\OrderService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T15:30:45.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BasketService.cs",
+              "DocumentMoniker": "C:\\Users\\Damian\\source\\repos\\dbarczak\\Laboratorium-Taiib\\BLL_EF\\BasketService.cs",
+              "RelativeDocumentMoniker": "BLL_EF\\BasketService.cs",
+              "ToolTip": "C:\\Users\\Damian\\source\\repos\\dbarczak\\Laboratorium-Taiib\\BLL_EF\\BasketService.cs",
+              "RelativeToolTip": "BLL_EF\\BasketService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEUAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T15:16:56.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\Damian\\source\\repos\\dbarczak\\Laboratorium-Taiib\\BLL_EF\\ProductService.cs",
+              "RelativeDocumentMoniker": "BLL_EF\\ProductService.cs",
+              "ToolTip": "C:\\Users\\Damian\\source\\repos\\dbarczak\\Laboratorium-Taiib\\BLL_EF\\ProductService.cs",
+              "RelativeToolTip": "BLL_EF\\ProductService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T15:04:17.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\Damian\\source\\repos\\dbarczak\\Laboratorium-Taiib\\BBL\\Interfaces\\IOrderService.cs",
+              "RelativeDocumentMoniker": "BBL\\Interfaces\\IOrderService.cs",
+              "ToolTip": "C:\\Users\\Damian\\source\\repos\\dbarczak\\Laboratorium-Taiib\\BBL\\Interfaces\\IOrderService.cs",
+              "RelativeToolTip": "BBL\\Interfaces\\IOrderService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T14:58:22.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BaksetController.cs",
+              "DocumentMoniker": "C:\\Users\\Damian\\source\\repos\\dbarczak\\Laboratorium-Taiib\\DBarczak_WebAPI\\Controllers\\BaksetController.cs",
+              "RelativeDocumentMoniker": "DBarczak_WebAPI\\Controllers\\BaksetController.cs",
+              "ToolTip": "C:\\Users\\Damian\\source\\repos\\dbarczak\\Laboratorium-Taiib\\DBarczak_WebAPI\\Controllers\\BaksetController.cs",
+              "RelativeToolTip": "DBarczak_WebAPI\\Controllers\\BaksetController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T15:50:56.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\Damian\\source\\repos\\dbarczak\\Laboratorium-Taiib\\DBarczak_WebAPI\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "DBarczak_WebAPI\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\Damian\\source\\repos\\dbarczak\\Laboratorium-Taiib\\DBarczak_WebAPI\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "DBarczak_WebAPI\\Controllers\\OrderController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T15:51:03.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Damian\\source\\repos\\dbarczak\\Laboratorium-Taiib\\DBarczak_WebAPI\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "DBarczak_WebAPI\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Damian\\source\\repos\\dbarczak\\Laboratorium-Taiib\\DBarczak_WebAPI\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "DBarczak_WebAPI\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAowCcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T15:50:44.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IBasketService.cs",
+              "DocumentMoniker": "C:\\Users\\Damian\\source\\repos\\dbarczak\\Laboratorium-Taiib\\BBL\\Interfaces\\IBasketService.cs",
+              "RelativeDocumentMoniker": "BBL\\Interfaces\\IBasketService.cs",
+              "ToolTip": "C:\\Users\\Damian\\source\\repos\\dbarczak\\Laboratorium-Taiib\\BBL\\Interfaces\\IBasketService.cs",
+              "RelativeToolTip": "BBL\\Interfaces\\IBasketService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T14:45:30.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\Damian\\source\\repos\\dbarczak\\Laboratorium-Taiib\\BBL\\Interfaces\\IProductService.cs",
+              "RelativeDocumentMoniker": "BBL\\Interfaces\\IProductService.cs",
+              "ToolTip": "C:\\Users\\Damian\\source\\repos\\dbarczak\\Laboratorium-Taiib\\BBL\\Interfaces\\IProductService.cs",
+              "RelativeToolTip": "BBL\\Interfaces\\IProductService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T14:56:24.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\Damian\\source\\repos\\dbarczak\\Laboratorium-Taiib\\DBarczak_WebAPI\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "DBarczak_WebAPI\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\Damian\\source\\repos\\dbarczak\\Laboratorium-Taiib\\DBarczak_WebAPI\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "DBarczak_WebAPI\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T15:55:19.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BasketPositionRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Damian\\source\\repos\\dbarczak\\Laboratorium-Taiib\\BBL\\DTO\\BasketPositionRequestDTO.cs",
+              "RelativeDocumentMoniker": "BBL\\DTO\\BasketPositionRequestDTO.cs",
+              "ToolTip": "C:\\Users\\Damian\\source\\repos\\dbarczak\\Laboratorium-Taiib\\BBL\\DTO\\BasketPositionRequestDTO.cs",
+              "RelativeToolTip": "BBL\\DTO\\BasketPositionRequestDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T14:42:22.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OrderPosition.cs",
+              "DocumentMoniker": "C:\\Users\\Damian\\source\\repos\\dbarczak\\Laboratorium-Taiib\\Model\\OrderPosition.cs",
+              "RelativeDocumentMoniker": "Model\\OrderPosition.cs",
+              "ToolTip": "C:\\Users\\Damian\\source\\repos\\dbarczak\\Laboratorium-Taiib\\Model\\OrderPosition.cs",
+              "RelativeToolTip": "Model\\OrderPosition.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T14:38:18.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\Damian\\source\\repos\\dbarczak\\Laboratorium-Taiib\\Model\\Order.cs",
+              "RelativeDocumentMoniker": "Model\\Order.cs",
+              "ToolTip": "C:\\Users\\Damian\\source\\repos\\dbarczak\\Laboratorium-Taiib\\Model\\Order.cs",
+              "RelativeToolTip": "Model\\Order.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T14:38:10.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IOrderPositionService.cs",
+              "DocumentMoniker": "C:\\Users\\Damian\\source\\repos\\dbarczak\\Laboratorium-Taiib\\BBL\\Interfaces\\IOrderPositionService.cs",
+              "RelativeDocumentMoniker": "BBL\\Interfaces\\IOrderPositionService.cs",
+              "ToolTip": "C:\\Users\\Damian\\source\\repos\\dbarczak\\Laboratorium-Taiib\\BBL\\Interfaces\\IOrderPositionService.cs",
+              "RelativeToolTip": "BBL\\Interfaces\\IOrderPositionService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T14:46:01.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "OrderRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Damian\\source\\repos\\dbarczak\\Laboratorium-Taiib\\BBL\\DTO\\OrderRequestDTO.cs",
+              "RelativeDocumentMoniker": "BBL\\DTO\\OrderRequestDTO.cs",
+              "ToolTip": "C:\\Users\\Damian\\source\\repos\\dbarczak\\Laboratorium-Taiib\\BBL\\DTO\\OrderRequestDTO.cs",
+              "RelativeToolTip": "BBL\\DTO\\OrderRequestDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T14:26:28.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "OrderResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Damian\\source\\repos\\dbarczak\\Laboratorium-Taiib\\BBL\\DTO\\OrderResponseDTO.cs",
+              "RelativeDocumentMoniker": "BBL\\DTO\\OrderResponseDTO.cs",
+              "ToolTip": "C:\\Users\\Damian\\source\\repos\\dbarczak\\Laboratorium-Taiib\\BBL\\DTO\\OrderResponseDTO.cs",
+              "RelativeToolTip": "BBL\\DTO\\OrderResponseDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T14:40:49.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BasketPosition.cs",
+              "DocumentMoniker": "C:\\Users\\Damian\\source\\repos\\dbarczak\\Laboratorium-Taiib\\Model\\BasketPosition.cs",
+              "RelativeDocumentMoniker": "Model\\BasketPosition.cs",
+              "ToolTip": "C:\\Users\\Damian\\source\\repos\\dbarczak\\Laboratorium-Taiib\\Model\\BasketPosition.cs",
+              "RelativeToolTip": "Model\\BasketPosition.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T14:37:06.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BasketPositionResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Damian\\source\\repos\\dbarczak\\Laboratorium-Taiib\\BBL\\DTO\\BasketPositionResponseDTO.cs",
+              "RelativeDocumentMoniker": "BBL\\DTO\\BasketPositionResponseDTO.cs",
+              "ToolTip": "C:\\Users\\Damian\\source\\repos\\dbarczak\\Laboratorium-Taiib\\BBL\\DTO\\BasketPositionResponseDTO.cs",
+              "RelativeToolTip": "BBL\\DTO\\BasketPositionResponseDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T14:42:35.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ProductResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Damian\\source\\repos\\dbarczak\\Laboratorium-Taiib\\BBL\\DTO\\ProductResponseDTO.cs",
+              "RelativeDocumentMoniker": "BBL\\DTO\\ProductResponseDTO.cs",
+              "ToolTip": "C:\\Users\\Damian\\source\\repos\\dbarczak\\Laboratorium-Taiib\\BBL\\DTO\\ProductResponseDTO.cs",
+              "RelativeToolTip": "BBL\\DTO\\ProductResponseDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T14:41:16.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Damian\\source\\repos\\dbarczak\\Laboratorium-Taiib\\Model\\Product.cs",
+              "RelativeDocumentMoniker": "Model\\Product.cs",
+              "ToolTip": "C:\\Users\\Damian\\source\\repos\\dbarczak\\Laboratorium-Taiib\\Model\\Product.cs",
+              "RelativeToolTip": "Model\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T14:38:23.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ProductRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Damian\\source\\repos\\dbarczak\\Laboratorium-Taiib\\BBL\\DTO\\ProductRequestDTO.cs",
+              "RelativeDocumentMoniker": "BBL\\DTO\\ProductRequestDTO.cs",
+              "ToolTip": "C:\\Users\\Damian\\source\\repos\\dbarczak\\Laboratorium-Taiib\\BBL\\DTO\\ProductRequestDTO.cs",
+              "RelativeToolTip": "BBL\\DTO\\ProductRequestDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T14:41:04.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Damian\\source\\repos\\dbarczak\\Laboratorium-Taiib\\Model\\User.cs",
+              "RelativeDocumentMoniker": "Model\\User.cs",
+              "ToolTip": "C:\\Users\\Damian\\source\\repos\\dbarczak\\Laboratorium-Taiib\\Model\\User.cs",
+              "RelativeToolTip": "Model\\User.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAAB8AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T14:38:29.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\Damian\\source\\repos\\dbarczak\\Laboratorium-Taiib\\BBL\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "BBL\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Users\\Damian\\source\\repos\\dbarczak\\Laboratorium-Taiib\\BBL\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "BBL\\Interfaces\\IUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T14:45:43.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "OrderPositionResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Damian\\source\\repos\\dbarczak\\Laboratorium-Taiib\\BBL\\DTO\\OrderPositionResponseDTO.cs",
+              "RelativeDocumentMoniker": "BBL\\DTO\\OrderPositionResponseDTO.cs",
+              "ToolTip": "C:\\Users\\Damian\\source\\repos\\dbarczak\\Laboratorium-Taiib\\BBL\\DTO\\OrderPositionResponseDTO.cs",
+              "RelativeToolTip": "BBL\\DTO\\OrderPositionResponseDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T14:42:07.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "OrderPositionRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Damian\\source\\repos\\dbarczak\\Laboratorium-Taiib\\BBL\\DTO\\OrderPositionRequestDTO.cs",
+              "RelativeDocumentMoniker": "BBL\\DTO\\OrderPositionRequestDTO.cs",
+              "ToolTip": "C:\\Users\\Damian\\source\\repos\\dbarczak\\Laboratorium-Taiib\\BBL\\DTO\\OrderPositionRequestDTO.cs",
+              "RelativeToolTip": "BBL\\DTO\\OrderPositionRequestDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T14:41:56.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UserRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Damian\\source\\repos\\dbarczak\\Laboratorium-Taiib\\BBL\\DTO\\UserRequestDTO.cs",
+              "RelativeDocumentMoniker": "BBL\\DTO\\UserRequestDTO.cs",
+              "ToolTip": "C:\\Users\\Damian\\source\\repos\\dbarczak\\Laboratorium-Taiib\\BBL\\DTO\\UserRequestDTO.cs",
+              "RelativeToolTip": "BBL\\DTO\\UserRequestDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T14:41:25.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UserResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Damian\\source\\repos\\dbarczak\\Laboratorium-Taiib\\BBL\\DTO\\UserResponseDTO.cs",
+              "RelativeDocumentMoniker": "BBL\\DTO\\UserResponseDTO.cs",
+              "ToolTip": "C:\\Users\\Damian\\source\\repos\\dbarczak\\Laboratorium-Taiib\\BBL\\DTO\\UserResponseDTO.cs",
+              "RelativeToolTip": "BBL\\DTO\\UserResponseDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T14:41:33.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "WebshopContext.cs",
+              "DocumentMoniker": "C:\\Users\\Damian\\source\\repos\\dbarczak\\Laboratorium-Taiib\\DAL\\WebshopContext.cs",
+              "RelativeDocumentMoniker": "DAL\\WebshopContext.cs",
+              "ToolTip": "C:\\Users\\Damian\\source\\repos\\dbarczak\\Laboratorium-Taiib\\DAL\\WebshopContext.cs",
+              "RelativeToolTip": "DAL\\WebshopContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T14:40:16.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Damian\\source\\repos\\dbarczak\\Laboratorium-Taiib\\DBarczak_WebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "DBarczak_WebAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\Damian\\source\\repos\\dbarczak\\Laboratorium-Taiib\\DBarczak_WebAPI\\appsettings.json",
+              "RelativeToolTip": "DBarczak_WebAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-08T14:38:57.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

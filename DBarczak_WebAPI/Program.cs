@@ -20,8 +20,11 @@ namespace DBarczak_WebAPI
             builder.Services.AddSwaggerGen();
 
             builder.Services.AddDbContext<WebshopContext>();
+            
             builder.Services.AddScoped<IProductService, ProductService>();
             builder.Services.AddScoped<IBasketService, BasketService>();
+            builder.Services.AddScoped<IOrderService, OrderService>();
+
 
             var app = builder.Build();
 
@@ -32,16 +35,13 @@ namespace DBarczak_WebAPI
                 app.UseSwaggerUI();
             }
 
-            app.UseAuthorization();
+            app.UseHttpsRedirection();
 
+            app.UseAuthorization();
 
             app.MapControllers();
 
             app.Run();
-        }
-        public void ConfigureServices(IServiceCollection services)
-        {
-            services.AddControllers();
         }
     }
 }
