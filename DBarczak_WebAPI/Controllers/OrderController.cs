@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace DBarczak_WebAPI.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class OrderController : ControllerBase
     {
         private readonly IOrderService _orderService;
@@ -29,9 +29,9 @@ namespace DBarczak_WebAPI.Controllers
 
 
         [HttpPost]
-        public void CreateOrder([FromBody] int userId, BasketPositionRequestDTO basketDTO)
+        public void CreateOrder(int userId)
         {
-            _orderService.CreateOrder(userId, basketDTO);
+            _orderService.CreateOrder(userId);
         }
     }
 }

@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace DBarczak_WebAPI.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class ProductController : ControllerBase
     {
         private readonly IProductService _productService;

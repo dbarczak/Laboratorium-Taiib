@@ -24,7 +24,15 @@ namespace DBarczak_WebAPI
             builder.Services.AddScoped<IProductService, ProductService>();
             builder.Services.AddScoped<IBasketService, BasketService>();
             builder.Services.AddScoped<IOrderService, OrderService>();
-
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowSpecificOrigin", builder =>
+                {
+                    builder.WithOrigins("http://localhost:4200")  // Angular app URL
+                           .AllowAnyMethod()
+                           .AllowAnyHeader();
+                });
+            });
 
             var app = builder.Build();
 
@@ -36,6 +44,15 @@ namespace DBarczak_WebAPI
             }
 
             app.UseHttpsRedirection();
+
+            /*app.UseCors(builder => builder.WithOrigins("http://localhost:4200")
+                    .AllowAnyOrigin()
+                    .AllowAnyMethod()
+                    .AllowAnyHeader()
+                    .Build()
+                    );*/
+
+            app.UseCors("AllowSpecificOrigin");
 
             app.UseAuthorization();
 
