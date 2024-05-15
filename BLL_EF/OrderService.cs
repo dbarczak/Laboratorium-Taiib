@@ -19,17 +19,59 @@ namespace BLL_EF
             _context = context;
         }
 
-        public void CreateOrder(int userId, BasketPositionRequestDTO basketDTO)
+        public void CreateOrder(int userId)
         {
-            var newOrder = new Order
+            /*var newOrder = new Order
             {
                 UserID = userId,
                 Date = DateTime.Now
             };
             _context.Orders.Add(newOrder);
-            _context.SaveChanges();
+            _context.SaveChanges();*/
+            /*User userX = _context.Users.Single(u => u.Id == userId);
+            List<BasketPosition> baskets = userX.BasketPositions.ToList();
+            List<Order> orders = _context.Orders.ToList();
+            List<OrderPosition> orderPositions = _context.OrderPositions.ToList();
+            foreach (var item in baskets)
+            {
+                Order newOrder = new Order()
+                {
+                    UserID = userX.Id,
+                    Date = DateTime.Today
+                };
+                orders.Add(newOrder);
+                _context.SaveChanges();
+                orderPositions.Add(new()
+                {
+                    OrderID = newOrder.Id,
+                    ProductID = item.ProductID,
+                    Amount = item.Amount,
+                    Price = item.Product.Price
+                });
+                baskets.Remove(item);
+                _context.SaveChanges();*/
 
-           
+                var positions = _context.BasketPositions.Where(bp => bp.UserID == userId).ToList();
+
+                if (positions.Any())
+                {
+                    var order = new Order
+                    {
+                        UserID = userId,
+                        Date = DateTime.Now,
+                        OrderPositions = positions.Select(bp => new OrderPosition
+                        {
+                            ProductID = bp.ProductID,
+                            Amount = bp.Amount,
+                            Price = bp.Product.Price
+                        }).ToList()
+                    };
+
+                    _context.Orders.Add(order);
+                    _context.BasketPositions.RemoveRange(positions);
+                    _context.SaveChanges();
+                }
+
         }
         public IEnumerable<OrderResponseDTO> GetAllOrders()
         {
