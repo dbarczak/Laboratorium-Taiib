@@ -12,7 +12,7 @@ export class ProductsService {
 
   public get(pagination: PaginationDTO): Observable<ProductResponseDTO[]> {
     return this.httpClient.get<ProductResponseDTO[]>(
-      'https://localhost:7254/api/Products',
+      'http://localhost:5031/api/products',
       {
         params: {
           page: pagination.page ?? 0,
@@ -24,7 +24,7 @@ export class ProductsService {
 
   public getProducts(): Observable<ProductResponseDTO[]> {
     return this.httpClient.get<ProductResponseDTO[]>(
-      'https://localhost:5031/api/Product'
+      'http://localhost:5031/api/products'
     );
   }
 }
