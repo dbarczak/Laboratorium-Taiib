@@ -1,9 +1,0 @@
-<p>products works!</p>
-
-<div class="product-container">
-  <div *ngFor="let s of data" class="product-tile">
-    <img [src]="s.image" alt="Product Image" />
-    <h3>{{ s.name }}</h3>
-    <p>{{ s.price | currency }}</p>
-  </div>
-</div>
