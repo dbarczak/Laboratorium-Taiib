@@ -1,0 +1,106 @@
+C:\Users\Kuba\Desktop\Taiib_zajecia\JW_Taiib\BLL_EF\bin\Debug\net6.0\BLL_EF.deps.json
+C:\Users\Kuba\Desktop\Taiib_zajecia\JW_Taiib\BLL_EF\bin\Debug\net6.0\BLL_EF.runtimeconfig.json
+C:\Users\Kuba\Desktop\Taiib_zajecia\JW_Taiib\BLL_EF\bin\Debug\net6.0\BLL_EF.dll
+C:\Users\Kuba\Desktop\Taiib_zajecia\JW_Taiib\BLL_EF\bin\Debug\net6.0\BLL_EF.pdb
+C:\Users\Kuba\Desktop\Taiib_zajecia\JW_Taiib\BLL_EF\bin\Debug\net6.0\BibliotekaModel.dll
+C:\Users\Kuba\Desktop\Taiib_zajecia\JW_Taiib\BLL_EF\bin\Debug\net6.0\BLL.dll
+C:\Users\Kuba\Desktop\Taiib_zajecia\JW_Taiib\BLL_EF\bin\Debug\net6.0\DAL.dll
+C:\Users\Kuba\Desktop\Taiib_zajecia\JW_Taiib\BLL_EF\bin\Debug\net6.0\BLL.pdb
+C:\Users\Kuba\Desktop\Taiib_zajecia\JW_Taiib\BLL_EF\bin\Debug\net6.0\DAL.pdb
+C:\Users\Kuba\Desktop\Taiib_zajecia\JW_Taiib\BLL_EF\bin\Debug\net6.0\BibliotekaModel.pdb
+C:\Users\Kuba\Desktop\Taiib_zajecia\JW_Taiib\BLL_EF\obj\Debug\net6.0\BLL_EF.csproj.AssemblyReference.cache
+C:\Users\Kuba\Desktop\Taiib_zajecia\JW_Taiib\BLL_EF\obj\Debug\net6.0\BLL_EF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kuba\Desktop\Taiib_zajecia\JW_Taiib\BLL_EF\obj\Debug\net6.0\BLL_EF.AssemblyInfoInputs.cache
+C:\Users\Kuba\Desktop\Taiib_zajecia\JW_Taiib\BLL_EF\obj\Debug\net6.0\BLL_EF.AssemblyInfo.cs
+C:\Users\Kuba\Desktop\Taiib_zajecia\JW_Taiib\BLL_EF\obj\Debug\net6.0\BLL_EF.csproj.CoreCompileInputs.cache
+C:\Users\Kuba\Desktop\Taiib_zajecia\JW_Taiib\BLL_EF\obj\Debug\net6.0\BLL_EF.csproj.CopyComplete
+C:\Users\Kuba\Desktop\Taiib_zajecia\JW_Taiib\BLL_EF\obj\Debug\net6.0\BLL_EF.dll
+C:\Users\Kuba\Desktop\Taiib_zajecia\JW_Taiib\BLL_EF\obj\Debug\net6.0\refint\BLL_EF.dll
+C:\Users\Kuba\Desktop\Taiib_zajecia\JW_Taiib\BLL_EF\obj\Debug\net6.0\BLL_EF.pdb
+C:\Users\Kuba\Desktop\Taiib_zajecia\JW_Taiib\BLL_EF\obj\Debug\net6.0\BLL_EF.genruntimeconfig.cache
+C:\Users\Kuba\Desktop\Taiib_zajecia\JW_Taiib\BLL_EF\obj\Debug\net6.0\ref\BLL_EF.dll
+D:\jw\JW_Taiib\BLL_EF\bin\Debug\net6.0\BLL_EF.deps.json
+D:\jw\JW_Taiib\BLL_EF\bin\Debug\net6.0\BLL_EF.runtimeconfig.json
+D:\jw\JW_Taiib\BLL_EF\bin\Debug\net6.0\BLL_EF.dll
+D:\jw\JW_Taiib\BLL_EF\bin\Debug\net6.0\BLL_EF.pdb
+D:\jw\JW_Taiib\BLL_EF\bin\Debug\net6.0\BibliotekaModel.dll
+D:\jw\JW_Taiib\BLL_EF\bin\Debug\net6.0\BLL.dll
+D:\jw\JW_Taiib\BLL_EF\bin\Debug\net6.0\DAL.dll
+D:\jw\JW_Taiib\BLL_EF\bin\Debug\net6.0\BLL.pdb
+D:\jw\JW_Taiib\BLL_EF\bin\Debug\net6.0\DAL.pdb
+D:\jw\JW_Taiib\BLL_EF\bin\Debug\net6.0\BibliotekaModel.pdb
+D:\jw\JW_Taiib\BLL_EF\obj\Debug\net6.0\BLL_EF.csproj.AssemblyReference.cache
+D:\jw\JW_Taiib\BLL_EF\obj\Debug\net6.0\BLL_EF.GeneratedMSBuildEditorConfig.editorconfig
+D:\jw\JW_Taiib\BLL_EF\obj\Debug\net6.0\BLL_EF.AssemblyInfoInputs.cache
+D:\jw\JW_Taiib\BLL_EF\obj\Debug\net6.0\BLL_EF.AssemblyInfo.cs
+D:\jw\JW_Taiib\BLL_EF\obj\Debug\net6.0\BLL_EF.csproj.CoreCompileInputs.cache
+D:\jw\JW_Taiib\BLL_EF\obj\Debug\net6.0\BLL_EF.sourcelink.json
+D:\jw\JW_Taiib\BLL_EF\obj\Debug\net6.0\BLL_EF.csproj.Up2Date
+D:\jw\JW_Taiib\BLL_EF\obj\Debug\net6.0\BLL_EF.dll
+D:\jw\JW_Taiib\BLL_EF\obj\Debug\net6.0\refint\BLL_EF.dll
+D:\jw\JW_Taiib\BLL_EF\obj\Debug\net6.0\BLL_EF.pdb
+D:\jw\JW_Taiib\BLL_EF\obj\Debug\net6.0\BLL_EF.genruntimeconfig.cache
+D:\jw\JW_Taiib\BLL_EF\obj\Debug\net6.0\ref\BLL_EF.dll
+C:\Users\Damian\Downloads\JW_Taiib-main (1)\JW_Taiib-main\BLL_EF\bin\Debug\net6.0\BLL_EF.deps.json
+C:\Users\Damian\Downloads\JW_Taiib-main (1)\JW_Taiib-main\BLL_EF\bin\Debug\net6.0\BLL_EF.runtimeconfig.json
+C:\Users\Damian\Downloads\JW_Taiib-main (1)\JW_Taiib-main\BLL_EF\bin\Debug\net6.0\BLL_EF.dll
+C:\Users\Damian\Downloads\JW_Taiib-main (1)\JW_Taiib-main\BLL_EF\bin\Debug\net6.0\BLL_EF.pdb
+C:\Users\Damian\Downloads\JW_Taiib-main (1)\JW_Taiib-main\BLL_EF\bin\Debug\net6.0\BLL.dll
+C:\Users\Damian\Downloads\JW_Taiib-main (1)\JW_Taiib-main\BLL_EF\bin\Debug\net6.0\DAL.dll
+C:\Users\Damian\Downloads\JW_Taiib-main (1)\JW_Taiib-main\BLL_EF\bin\Debug\net6.0\BLL.pdb
+C:\Users\Damian\Downloads\JW_Taiib-main (1)\JW_Taiib-main\BLL_EF\bin\Debug\net6.0\DAL.pdb
+C:\Users\Damian\Downloads\JW_Taiib-main (1)\JW_Taiib-main\BLL_EF\obj\Debug\net6.0\BLL_EF.csproj.AssemblyReference.cache
+C:\Users\Damian\Downloads\JW_Taiib-main (1)\JW_Taiib-main\BLL_EF\obj\Debug\net6.0\BLL_EF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Damian\Downloads\JW_Taiib-main (1)\JW_Taiib-main\BLL_EF\obj\Debug\net6.0\BLL_EF.AssemblyInfoInputs.cache
+C:\Users\Damian\Downloads\JW_Taiib-main (1)\JW_Taiib-main\BLL_EF\obj\Debug\net6.0\BLL_EF.AssemblyInfo.cs
+C:\Users\Damian\Downloads\JW_Taiib-main (1)\JW_Taiib-main\BLL_EF\obj\Debug\net6.0\BLL_EF.csproj.CoreCompileInputs.cache
+C:\Users\Damian\Downloads\JW_Taiib-main (1)\JW_Taiib-main\BLL_EF\obj\Debug\net6.0\BLL_EF.csproj.Up2Date
+C:\Users\Damian\Downloads\JW_Taiib-main (1)\JW_Taiib-main\BLL_EF\obj\Debug\net6.0\BLL_EF.dll
+C:\Users\Damian\Downloads\JW_Taiib-main (1)\JW_Taiib-main\BLL_EF\obj\Debug\net6.0\refint\BLL_EF.dll
+C:\Users\Damian\Downloads\JW_Taiib-main (1)\JW_Taiib-main\BLL_EF\obj\Debug\net6.0\BLL_EF.pdb
+C:\Users\Damian\Downloads\JW_Taiib-main (1)\JW_Taiib-main\BLL_EF\obj\Debug\net6.0\BLL_EF.genruntimeconfig.cache
+C:\Users\Damian\Downloads\JW_Taiib-main (1)\JW_Taiib-main\BLL_EF\obj\Debug\net6.0\ref\BLL_EF.dll
+C:\Users\Damian\Downloads\JW_Taiib-main (1)\JW_Taiib-main\BLL_EF\bin\Debug\net6.0\Model.dll
+C:\Users\Damian\Downloads\JW_Taiib-main (1)\JW_Taiib-main\BLL_EF\bin\Debug\net6.0\Model.pdb
+C:\Users\Damian\Desktop\JW_Taiib-main\BLL_EF\bin\Debug\net6.0\BLL_EF.deps.json
+C:\Users\Damian\Desktop\JW_Taiib-main\BLL_EF\bin\Debug\net6.0\BLL_EF.runtimeconfig.json
+C:\Users\Damian\Desktop\JW_Taiib-main\BLL_EF\bin\Debug\net6.0\BLL_EF.dll
+C:\Users\Damian\Desktop\JW_Taiib-main\BLL_EF\bin\Debug\net6.0\BLL_EF.pdb
+C:\Users\Damian\Desktop\JW_Taiib-main\BLL_EF\bin\Debug\net6.0\BLL.dll
+C:\Users\Damian\Desktop\JW_Taiib-main\BLL_EF\bin\Debug\net6.0\DAL.dll
+C:\Users\Damian\Desktop\JW_Taiib-main\BLL_EF\bin\Debug\net6.0\Model.dll
+C:\Users\Damian\Desktop\JW_Taiib-main\BLL_EF\bin\Debug\net6.0\BLL.pdb
+C:\Users\Damian\Desktop\JW_Taiib-main\BLL_EF\bin\Debug\net6.0\DAL.pdb
+C:\Users\Damian\Desktop\JW_Taiib-main\BLL_EF\bin\Debug\net6.0\Model.pdb
+C:\Users\Damian\Desktop\JW_Taiib-main\BLL_EF\obj\Debug\net6.0\BLL_EF.csproj.AssemblyReference.cache
+C:\Users\Damian\Desktop\JW_Taiib-main\BLL_EF\obj\Debug\net6.0\BLL_EF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Damian\Desktop\JW_Taiib-main\BLL_EF\obj\Debug\net6.0\BLL_EF.AssemblyInfoInputs.cache
+C:\Users\Damian\Desktop\JW_Taiib-main\BLL_EF\obj\Debug\net6.0\BLL_EF.AssemblyInfo.cs
+C:\Users\Damian\Desktop\JW_Taiib-main\BLL_EF\obj\Debug\net6.0\BLL_EF.csproj.CoreCompileInputs.cache
+C:\Users\Damian\Desktop\JW_Taiib-main\BLL_EF\obj\Debug\net6.0\BLL_EF.csproj.Up2Date
+C:\Users\Damian\Desktop\JW_Taiib-main\BLL_EF\obj\Debug\net6.0\BLL_EF.dll
+C:\Users\Damian\Desktop\JW_Taiib-main\BLL_EF\obj\Debug\net6.0\refint\BLL_EF.dll
+C:\Users\Damian\Desktop\JW_Taiib-main\BLL_EF\obj\Debug\net6.0\BLL_EF.pdb
+C:\Users\Damian\Desktop\JW_Taiib-main\BLL_EF\obj\Debug\net6.0\BLL_EF.genruntimeconfig.cache
+C:\Users\Damian\Desktop\JW_Taiib-main\BLL_EF\obj\Debug\net6.0\ref\BLL_EF.dll
+C:\Users\Damian\Desktop\DBarczak_Taiib\BLL_EF\bin\Debug\net6.0\BLL_EF.deps.json
+C:\Users\Damian\Desktop\DBarczak_Taiib\BLL_EF\bin\Debug\net6.0\BLL_EF.runtimeconfig.json
+C:\Users\Damian\Desktop\DBarczak_Taiib\BLL_EF\bin\Debug\net6.0\BLL_EF.dll
+C:\Users\Damian\Desktop\DBarczak_Taiib\BLL_EF\bin\Debug\net6.0\BLL_EF.pdb
+C:\Users\Damian\Desktop\DBarczak_Taiib\BLL_EF\bin\Debug\net6.0\BLL.dll
+C:\Users\Damian\Desktop\DBarczak_Taiib\BLL_EF\bin\Debug\net6.0\DAL.dll
+C:\Users\Damian\Desktop\DBarczak_Taiib\BLL_EF\bin\Debug\net6.0\Model.dll
+C:\Users\Damian\Desktop\DBarczak_Taiib\BLL_EF\bin\Debug\net6.0\BLL.pdb
+C:\Users\Damian\Desktop\DBarczak_Taiib\BLL_EF\bin\Debug\net6.0\DAL.pdb
+C:\Users\Damian\Desktop\DBarczak_Taiib\BLL_EF\bin\Debug\net6.0\Model.pdb
+C:\Users\Damian\Desktop\DBarczak_Taiib\BLL_EF\obj\Debug\net6.0\BLL_EF.csproj.AssemblyReference.cache
+C:\Users\Damian\Desktop\DBarczak_Taiib\BLL_EF\obj\Debug\net6.0\BLL_EF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Damian\Desktop\DBarczak_Taiib\BLL_EF\obj\Debug\net6.0\BLL_EF.AssemblyInfoInputs.cache
+C:\Users\Damian\Desktop\DBarczak_Taiib\BLL_EF\obj\Debug\net6.0\BLL_EF.AssemblyInfo.cs
+C:\Users\Damian\Desktop\DBarczak_Taiib\BLL_EF\obj\Debug\net6.0\BLL_EF.csproj.CoreCompileInputs.cache
+C:\Users\Damian\Desktop\DBarczak_Taiib\BLL_EF\obj\Debug\net6.0\BLL_EF.csproj.Up2Date
+C:\Users\Damian\Desktop\DBarczak_Taiib\BLL_EF\obj\Debug\net6.0\BLL_EF.dll
+C:\Users\Damian\Desktop\DBarczak_Taiib\BLL_EF\obj\Debug\net6.0\refint\BLL_EF.dll
+C:\Users\Damian\Desktop\DBarczak_Taiib\BLL_EF\obj\Debug\net6.0\BLL_EF.pdb
+C:\Users\Damian\Desktop\DBarczak_Taiib\BLL_EF\obj\Debug\net6.0\BLL_EF.genruntimeconfig.cache
+C:\Users\Damian\Desktop\DBarczak_Taiib\BLL_EF\obj\Debug\net6.0\ref\BLL_EF.dll
