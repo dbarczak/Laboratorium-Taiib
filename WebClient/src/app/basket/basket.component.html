@@ -1,0 +1,29 @@
+<table border="1">
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>UserID</th>
+      <th>ProductID</th>
+      <th>Amount</th>
+      <th>Change amount</th>
+      <th>Remove</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let p of pos">
+      <td>{{ p.id }}</td>
+      <td>{{ p.userID }}</td>
+      <td>{{ p.productID }}</td>
+      <td>{{ p.amount }}</td>
+      <td>
+        <input type="number" [(ngModel)]="p.amount" (change)="changeAmount(p.id, p.amount)" />
+      </td>
+      <td>
+        <button (click)="removeFromBasket(p.id)">Remove</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br />
+<button (click)="createOrder()">Order</button>
