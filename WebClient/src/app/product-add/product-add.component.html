@@ -1,0 +1,45 @@
+<form #productForm="ngForm" (ngSubmit)="onSubmit()">
+  <div>
+    <label for="name">Name</label>
+    <input
+      type="text"
+      id="name"
+      name="name"
+      [(ngModel)]="productRequest.name"
+      required
+    />
+  </div>
+  <div>
+    <label for="price">Price</label>
+    <input
+      type="number"
+      id="price"
+      name="price"
+      [(ngModel)]="productRequest.price"
+      required
+      step="0.01"
+    />
+  </div>
+  <div>
+    <label for="image">Image</label>
+    <input
+      type="text"
+      id="image"
+      name="image"
+      [(ngModel)]="productRequest.image"
+    />
+  </div>
+  <div>
+    <label for="isActive">IsActive</label>
+    <input
+      type="checkbox"
+      id="isActive"
+      name="isActive"
+      [(ngModel)]="productRequest.isActive"
+    />
+  </div>
+  <div>
+    <button type="button" (click)="cancel()">Anuluj</button>
+    <button type="submit">Add</button>
+  </div>
+</form>

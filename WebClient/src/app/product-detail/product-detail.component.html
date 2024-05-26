@@ -1,0 +1,38 @@
+<div *ngIf="product" style="display: grid;">
+  <div style="border: 1px solid black; background-color: rgb(182, 236, 94); width: 15%;" width="120" height="120">
+    {{ product.name }}<br />
+    {{ product.price }}<br />
+    <img [src]="product.image" width="100" height="100" /><br />
+    {{ product.isActive }}<br />
+  </div>
+</div>
+
+<form *ngIf="product" (ngSubmit)="onSubmit('save')">
+  <input type="submit" name="delete" value="Delete" (click)="onSubmit('delete')" />
+  <input type="submit" name="changeState" [value]="product.isActive ? 'Desactive' : 'Active'" (click)="onSubmit('changeState')" />
+</form>
+
+<br />
+<br />
+<br />
+
+<form *ngIf="product" (ngSubmit)="onSubmit('save')">
+  <div>
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" [(ngModel)]="productRequest.name" required />
+  </div>
+  <div>
+    <label for="price">Price</label>
+    <input type="number" id="price" name="price" [(ngModel)]="productRequest.price" required step="0.01" />
+  </div>
+  <div>
+    <label for="image">Image</label>
+    <input type="text" id="image" name="image" [(ngModel)]="productRequest.image" />
+  </div>
+  <div>
+    <label for="isActive">IsActive</label>
+    <input type="checkbox" id="isActive" name="isActive" [(ngModel)]="productRequest.isActive" />
+  </div>
+  <input type="button" value="Cancel" (click)="cancel()" />
+  <input type="submit" value="Save" />
+</form>

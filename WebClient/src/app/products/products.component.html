@@ -1,0 +1,13 @@
+<div *ngFor="let p of data" style="display:grid;">
+  <div style="border: 1px solid black; background-color: rgb(182, 236, 94); width: 15%; cursor: pointer;" [routerLink]="[p.id]" width="120" height="120">
+      {{ p.name }}<br />
+      {{p.price}}<br/>
+      <img [src]=p.image width="100" height="100"><br/>
+      {{p.isActive}}<br/>
+      <input type="button" name="add" id="add" value="Dodaj do koszyka" (click)="addToBasket(p.id)"/>
+  </div>
+</div>
+<br />
+<form >
+  <input type="button" name="add" id="add" value="Dodaj produkt" (click)="addNewProduct()"/>
+</form>
