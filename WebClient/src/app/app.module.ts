@@ -11,6 +11,12 @@ import { ProductDetailComponent } from './product-detail/product-detail.componen
 import { BasketComponent } from './basket/basket.component';
 import { ProductAddComponent } from './product-add/product-add.component';
 import { OrderDetailComponent } from './order-detail/order-detail.component';
+import { LoginComponent } from './login/login.component';
+import { JwtModule } from '@auth0/angular-jwt';
+
+export function tokenGetter() {
+  return localStorage.getItem("jwt");
+}
 
 @NgModule({
   declarations: [
@@ -20,13 +26,20 @@ import { OrderDetailComponent } from './order-detail/order-detail.component';
     ProductDetailComponent,
     BasketComponent,
     ProductAddComponent,
-    OrderDetailComponent
+    OrderDetailComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    JwtModule.forRoot({
+      config: {
+        tokenGetter: tokenGetter,
+        allowedDomains: ["localhost:7123"]
+      }
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]

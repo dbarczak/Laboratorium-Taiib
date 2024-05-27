@@ -6,16 +6,19 @@ import { BasketComponent } from './basket/basket.component';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
 import { OrderDetailComponent } from './order-detail/order-detail.component';
 import { ProductAddComponent } from './product-add/product-add.component';
+import { AuthGuard } from './auth.guard';
+import { LoginComponent } from './login/login.component';
 
 const routes: Routes = [
-  {path: 'products', component: ProductsComponent},
-  {path: 'orders', component: OrdersComponent},
-  {path: 'orders/all', component: OrdersComponent},
-  {path: 'basket', component: BasketComponent},
-  {path: 'products/add', component: ProductAddComponent},
-  {path: 'products/:id', component: ProductDetailComponent},
-  {path: 'orders/:orderId', component: OrderDetailComponent},
-  {path: 'orders/all/:orderId', component: OrderDetailComponent}
+  {path: 'login', component: LoginComponent},
+  {path: 'products', component: ProductsComponent, canActivate: [AuthGuard]},
+  {path: 'orders', component: OrdersComponent, canActivate: [AuthGuard]},
+  {path: 'orders/all', component: OrdersComponent, canActivate: [AuthGuard]},
+  {path: 'basket', component: BasketComponent, canActivate: [AuthGuard]},
+  {path: 'products/add', component: ProductAddComponent, canActivate: [AuthGuard]},
+  {path: 'products/:id', component: ProductDetailComponent, canActivate: [AuthGuard]},
+  {path: 'orders/:orderId', component: OrderDetailComponent, canActivate: [AuthGuard]},
+  {path: 'orders/all/:orderId', component: OrderDetailComponent, canActivate: [AuthGuard]}
 ];
 
 @NgModule({
