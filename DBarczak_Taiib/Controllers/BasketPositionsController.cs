@@ -2,12 +2,13 @@
 using BLL.DTO;
 using BLL.Interfaces;
 using BLL_EF;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace JW_WebAPI.Controllers
 {
     [Route("api/[controller]")]
-    [ApiController]
+    [ApiController, Authorize]
     public class BasketPositionsController : ControllerBase
     {
         readonly IBasketService _basketPositionBLL;
